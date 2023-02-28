@@ -5,8 +5,90 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbb20273-986a-48ca-a724-e0efd05d7360" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/common/consts/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/common/exceptions/CommonException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/java/cn/xiaowenjie/BlogModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/java/cn/xiaowenjie/beans/Blog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/java/cn/xiaowenjie/controllers/BlogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/java/cn/xiaowenjie/daos/BlogDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/src/main/java/cn/xiaowenjie/services/BlogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/CreateTestData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/beans/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/beans/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/beans/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/beans/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/beans/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/beans/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/caches/CacheNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/caches/CacheNames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/caches/ClearCacheTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/caches/ClearCacheTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/common/annotations/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/common/annotations/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/common/aop/ControllerAOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/common/aop/ControllerAOP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/common/aop/LogAOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/common/aop/LogAOP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/common/aop/ValidExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/common/aop/ValidExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/common/beans/PageReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/common/beans/PageReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/common/beans/PageResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/common/beans/PageResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/common/beans/ResultBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/common/beans/ResultBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/common/consts/Roles.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/common/consts/Roles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/common/daos/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/common/daos/RoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/common/daos/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/common/daos/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/common/exceptions/CheckException.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/common/exceptions/CheckException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/common/exceptions/UnloginException.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/common/exceptions/UnloginException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/common/filters/UserFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/common/filters/UserFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/common/rbac/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/common/rbac/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/common/rbac/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/common/rbac/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/common/utils/CheckUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/common/utils/CheckUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/common/utils/SPELUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/common/utils/SPELUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/common/utils/StaticFieldInjectionConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/common/utils/StaticFieldInjectionConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/common/utils/UserUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/common/utils/UserUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/consts/LogConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/consts/LogConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/consts/ObjType.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/consts/ObjType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/controllers/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/controllers/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/controllers/CacheController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/controllers/CacheController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/controllers/ConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/controllers/ConfigController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/controllers/MailControlller.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/controllers/MailControlller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/controllers/TreeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/controllers/TreeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/daos/ConfigDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/daos/ConfigDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/jms/JMSMailComsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/jms/JMSTool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/jms/JMSType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/jpa/JPAListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/jpa/JPAListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/services/ConfigService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/services/ConfigService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/tool/ConfigUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/tool/ConfigUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/tool/MailTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/tool/MailTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/tool/PasswordUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/tool/PasswordUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/tool/XWJDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/cn/billy/tool/XWJDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/cache.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/resources/lib/baiduTemplate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/static/resources/lib/jquery-1.11.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/i18n/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/i18n/messages_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/static/cache.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/static/resources/lib/baiduTemplate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/static/resources/lib/jquery-1.11.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/cn/xiaowenjie/SpringbootCodeTemplateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/billy/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/cn/xiaowenjie/jpa/JMSObjectComsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/cn/xiaowenjie/jpa/JPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/billy/jpa/JPAConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/cn/xiaowenjie/jpa/JPAThreadLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/billy/jpa/JPAThreadLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/cn/xiaowenjie/springconfigs/DruidStatFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/billy/springconfigs/DruidStatFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/cn/xiaowenjie/springconfigs/DruidStatViewServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/billy/springconfigs/DruidStatViewServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/cn/xiaowenjie/springconfigs/JMSConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/cn/xiaowenjie/springconfigs/MyAuthorizingRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/billy/springconfigs/MyAuthorizingRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/cn/xiaowenjie/springconfigs/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/billy/springconfigs/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/cn/xiaowenjie/springconfigs/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/billy/springconfigs/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/test/java/cn/xiaowenjie/SpringbootCodeTemplate/ConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/test/java/cn/billy/SpringbootCodeTemplate/ConfigTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/test/java/cn/xiaowenjie/SpringbootCodeTemplate/MailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/test/java/cn/billy/SpringbootCodeTemplate/MailTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +106,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -409,25 +491,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelOrder2": "2",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RequestMappingsPanelWidth2": "75",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/zc/java/jiaoshoujia",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "0473e726b36cf8fe616d3cca588d5cec",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zc/java/jiaoshoujia&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;2e53db5f6745702f01c2a0afe7039a4a&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Github\xwjie\ElementVueSpringbootCodeTemplate\JavaSource\core\src\main\java\cn\xiaowenjie\common\utils" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.xiaowenjie.jpa" />
       <recent name="cn.xiaowenjie.beans" />
@@ -436,17 +521,21 @@
       <recent name="cn.xiaowenjie.tool" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.xiaowenjie.common.exceptions" />
       <recent name="cn.xiaowenjie.jms" />
       <recent name="cn.xiaowenjie.beans" />
       <recent name="cn.xiaowenjie.services" />
       <recent name="cn.xiaowenjie.daos" />
-      <recent name="cn.xiaowenjie.controllers" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Github\xwjie\ElementVueSpringbootCodeTemplate\JavaSource\core\src\main\java\cn\xiaowenjie\common\utils" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.SpringbootCodeTemplateApplication (1)">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.billy.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringbootCodeTemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.xiaowenjie.SpringbootCodeTemplateApplication" />
@@ -479,7 +568,11 @@
       <workItem from="1547340780546" duration="2664000" />
       <workItem from="1673337819818" duration="18134000" />
       <workItem from="1675751560622" duration="41114000" />
-      <workItem from="1676429537946" duration="8688000" />
+      <workItem from="1676429537946" duration="17166000" />
+      <workItem from="1677125067275" duration="627000" />
+      <workItem from="1677132847084" duration="472000" />
+      <workItem from="1677133337122" duration="597000" />
+      <workItem from="1677478149710" duration="11154000" />
     </task>
     <servers />
   </component>
@@ -589,7 +682,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/core/src/main/java/cn/xiaowenjie/services/ConfigService.java</url>
+          <url>file://$PROJECT_DIR$/core/src/main/java/cn/billy/services/ConfigService.java</url>
           <line>128</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

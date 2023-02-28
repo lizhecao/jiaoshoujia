@@ -9,10 +9,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="core" />
         <module name="main" />
-        <module name="blog" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="blog" target="1.8" />
       <module name="chart" target="1.8" />
       <module name="common" target="1.6" />
       <module name="favorite" target="1.8" />
